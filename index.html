@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="main.js"></script>
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="loginFormBlock">
+        <div class="formContainer">
+          <p>Username:</p>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+          <p>Password :</p>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+        </div>
+        <button class="loginFormButton">Log in</button>
+      </div>
+      <button class="buttonAdd"><p class="plus">+</p></button>
+      <div class="addBanner">
+        <input
+          type="text"
+          class="inputAddBanner"
+          id="inputWord"
+          placeholder="Word"
+        />
+        <input
+          type="text"
+          style="margin: 17px auto 0 auto"
+          id="inputTranslate"
+          class="inputAddBanner"
+          placeholder="Translate"
+        />
+        <div class="addBannerButtonBlock">
+          <button class="buttonShow" id="No">No</button>
+          <button class="buttonShow" id="Add" style="margin-left: 155px">
+            Add
+          </button>
+        </div>
+      </div>
+      <div class="worklist">
+        <!-- <div class="blockWithoutTranslate">
+                <div style="display: inline-block;">
+                    <p class="blockWithoutTranslateText">Don't look at me</p>
+                </div>
+                <div style="display: inline-block;">
+                    <button class="buttonShow" style="margin-left: 240px;">Show</button>
+                </div>
+            </div> -->
+      </div>
+    </div>
+  </body>
+</html>

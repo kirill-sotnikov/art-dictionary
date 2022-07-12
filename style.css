@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+body {
+  background: radial-gradient(79.8% 50% at 50% 50%, #53d6ff 0%, #a5e9ff 100%);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Inter";
+}
+
+.loginFormBlock {
+  position: relative;
+  top: 10%;
+  width: 400px;
+  height: 300px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  /* background: #63a2f5; */
+  border: 1px solid #0f4b84;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  color: #0f4b84;
+}
+
+.formContainer {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 45px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.formContainer input {
+  width: 200px;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  color: black;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.loginFormButton {
+  position: absolute;
+  bottom: 6px;
+  right: 50%;
+  transform: translate(50%, -50%);
+  text-align: center;
+  padding: 10px 60px;
+  display: block;
+  cursor: pointer;
+  border: 1px solid #0f4b84;
+  background: #0f4b84;
+  color: #fff;
+  border-radius: 5px;
+}
+.loginFormButton:hover {
+  transition: all 0.3s ease-in-out;
+  background: #0d3c68;
+  color: #fff;
+}
+
+.buttonAdd {
+  width: 320px;
+  height: 56px;
+  margin: 0 auto;
+  display: none;
+  background: rgba(88, 175, 255, 0.28) no-repeat;
+  border: 1px solid #0085ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.main {
+  margin: 10px auto;
+  max-width: 360px;
+  /* background-color: white; */
+  width: 95vw;
+  height: 100vh;
+  font-family: "Inter";
+}
+.plus {
+  width: fit-content;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 0 0 3px 0px;
+  font-size: 45px;
+  color: #0085ff;
+  line-height: 27px;
+}
+
+.inputAddBanner {
+  display: block;
+  border: none;
+  border-bottom: 0.5px solid #7cc0ff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #7c7c7c;
+  width: 285px;
+  margin: 0 auto;
+  outline: none;
+}
+
+.addBanner {
+  width: 320px;
+  height: 150px;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0px 3px 10px #979696;
+  padding-top: 17px;
+  display: none;
+}
+
+input::placeholder {
+  color: #c0c0c0;
+}
+
+.buttonShow {
+  background: #45a6ff;
+  border-radius: 15.5px 15.5px 0px 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  width: 64px;
+  height: 31px;
+  color: white;
+  border: none;
+  /* float: left; */
+}
+
+.addBannerButtonBlock {
+  width: fit-content;
+  height: 31px;
+  margin: 38px auto 0 17px;
+}
+
+.blockWithoutTranslate {
+  margin: 10px auto 0 auto;
+  background-color: white;
+  width: 320px;
+  min-height: 55px;
+  height: fit-content;
+  box-shadow: 0px 3px 10px #979696;
+  border-radius: 5px;
+}
+.blockWithoutTranslateText {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0085ff;
+  margin: 0;
+  padding: 13px 0 3px 19px;
+}
+
+.buttonDel {
+  background: #45a6ff;
+  border-radius: 15.5px 15.5px 0px 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  width: 33px;
+  height: 31px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.worklist {
+  padding-bottom: 20px;
+  display: none;
+}
